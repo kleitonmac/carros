@@ -1,5 +1,5 @@
 🚗 Concessionária Web
-Bem-vindo(a) ao repositório da Concessionária Web , um projeto pessoal desenvolvido para simular um site moderno e funcional de uma entrega de veículos. Este projeto faz parte do meu portfólio e tem como objetivo demonstrar minhas habilidades com desenvolvimento web, design responsivo e integração com APIs modernas, como a da OpenAI.
+Bem-vindo(a) ao repositório da Concessionária Web , um projeto pessoal desenvolvido para simular um site moderno e funcional de uma entrega de veículos. Este projeto faz parte do meu portfólio e tem como objetivo demonstrar minhas habilidades com desenvolvimento web, design responsivo.
 
 <img src="/img/menu.png">
 
@@ -16,39 +16,9 @@ Backend:
 Pitão
 Django
 Banco de Dados:
+Postgres
 
-SQLite (padrão, simples de configurar localmente)
-Integrações:
 
-API OpenAI (para recursos com inteligência artificial)
-✅ Funcionalidades
-Página inicial com destaques e promoções de veículos
-Lista de veículos com filtros por categoria, marca e faixa de preço
-Página detalhada para cada veículo
-Formulário de contato e simulação de financiamento
-Área administrativa (em desenvolvimento)
-Design totalmente responsivo, adaptado para dispositivos móveis
-CRUD completo de veículos com autenticação
-Uso de sinais do Django para lógica de banco de dados
-Integração com OpenAI API para recursos inteligentes:
-Chatbot para tirar dúvidas
-Sugestões de veículos conforme o perfil do usuário
-Explicações automáticas sobre modelos, financiamento e processos
-🤖 Integração com OpenAI
-A IA é utilizada no projeto para melhorar a experiência do usuário por meio de respostas inteligentes e automatizadas.
-
-Como configurar a chave do OpenAI
-Crie uma conta em: https://platform.openai.com
-Gere uma chave de API e aba API Keys
-Crie um arquivo .envna raiz do projeto com o seguinte conteúdo:
-OPENAI_API_KEY=sk-sua-chave-aqui
-No seu código Python, use o seguinte padrão para carregar a chave:
-from dotenv import load_dotenv
-import os
-import openai
-
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
 💻 Como rodar o projeto localmente
 1. Clonar ou repositório
 git clone https://github.com/kleitonmac/carros-dev.git
