@@ -1,7 +1,7 @@
 🚗 Concessionária Web
 Bem-vindo(a) ao repositório da Concessionária Web , um projeto pessoal desenvolvido para simular um site moderno e funcional de uma entrega de veículos. Este projeto faz parte do meu portfólio e tem como objetivo demonstrar minhas habilidades com desenvolvimento web, design responsivo e integração com APIs modernas, como a da OpenAI.
 
-<img src="menu.png">
+<img src="/img/menu.png">
 
 
 🛠️ Tecnologias Utilizadas
